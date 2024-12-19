@@ -1,0 +1,49 @@
+/* Reset default margin and padding for the body */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: skyblue; /* Set background color to sky blue */
+}
+
+/* Center everything in the page */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* Style for the header text */
+.header_text {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Style for the gif container */
+.gif_container img {
+  width: 300px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+/* Button style */
+.btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
